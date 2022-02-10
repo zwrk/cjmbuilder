@@ -25,5 +25,9 @@ $(function () {
             },
         }
     });
+    
+    $('.btn-link').on('click', function () {
+        $(this).toggleClass('active');
+    });
 
 });
